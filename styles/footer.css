@@ -1,0 +1,18 @@
+.footer {
+  background-color: #57BBBF;
+}
+
+.actual-footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 280px;
+  padding-right: 280px;
+  font-size: 15px;
+}
+.actual-footer-button {
+  background-color: #57BBBF;
+  border: none;
+  font-size: 60px;
+  padding-bottom: 30px;
+}

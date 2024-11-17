@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 102px;
+}
+.wrapper {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 8px 30px;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  transition: color 0.2s;
+  transition: background-color 0.2s;
+
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo-box {
+  margin-left: 140px;
+}
+
+.header-logo-name {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.header-logo-undername {
+  text-align: center;
+}
+
+.header-menu-box {
+  margin-right: 140px;
+}
+
+.header-menu-link {
+  font-size: 15px;
+  padding: 0 12px;
+  transition: color 0.25s;
+}
+.header-menu-link:hover {
+  color: #57BBCD;
+}
+.active {
+  color: #57BBCD;
+}
